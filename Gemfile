@@ -1,6 +1,10 @@
 ruby '2.3.1'
 source 'https://rubygems.org'
 
+gem 'rails_12factor'
+gem 'haml'          
+gem 'haml-rails'    
+
 gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 
 gem 'pg', '~> 0.18'
