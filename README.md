@@ -53,8 +53,9 @@ gem install bundler
 ```bash
 sudo su - postgres
 psql
-CREATE USER rails50 WITH SUPERUSER LOGIN;
-ALTER USER rails50 PASSWORD 'rails50';
+CREATE USER     rails50 WITH SUPERUSER LOGIN;
+ALTER USER      rails50 PASSWORD 'rails50';
+CREATE DATABASE rails50;
 ^D
 ^D
 ```
