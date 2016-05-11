@@ -86,4 +86,38 @@ bin/rails server
 
 ![alt text](public/img/ex1.png "ex1.png")
 
+* At that point my dev-env was setup on my laptop.
+
+* I wanted to run danrails50 on Heroku.
+
+* I created an account on heroku.com
+
+* I installed the heroku-client:
+
+```bash
+cd ~
+wget https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client.tgz
+tar zxf heroku-client.tgz
+echo 'export PATH="${HOME}/heroku-client/bin:$PATH"' >> ~/.bashrc
+bash
+```
+
+* I created an ssh-key for rails50:
+
+```bash
+ssh-keygen -t rsa
+```
+
+* I used the heroku-client to upload the key to heroku:
+
+```bash
+heroku keys:add
+```
+
+* I used the heroku-client to create an empty app on heroku:
+
+heroku create danrails501
+
+
+
 
