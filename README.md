@@ -25,7 +25,25 @@ ruby ruby-dev sqlite3
 
 ```bash
 sudo useradd -m -s /bin/bash rails50
-
-
+sudo passwd rails50
 ```
 
+* I logged into rails50:
+
+```bash
+ssh -YA rails50@localhost
+```
+
+* In order to install Ruby 2.3.1 I ran some shell commands:
+
+```bash
+cd ~
+git clone https://github.com/rbenv/rbenv.git      .rbenv
+git clone https://github.com/rbenv/ruby-build.git .rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"'               >> ~/.bashrc
+bash
+rbenv install 2.3.1
+rbenv global  2.3.1
+gem install bundler
+```
