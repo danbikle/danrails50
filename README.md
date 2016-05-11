@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository demonstrates how I mix Rails 5 with Twitter Bootstrap-4.
 
-Things you may want to cover:
+* I started with a windows laptop.
 
-* Ruby version
+* I replaced windows with Ubuntu 16.04
 
-* System dependencies
+* I enhanced Ubuntu with an apt-get shell command:
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
