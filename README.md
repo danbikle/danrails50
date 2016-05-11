@@ -54,8 +54,36 @@ gem install bundler
 sudo su - postgres
 psql
 CREATE USER     rails50 WITH SUPERUSER LOGIN;
-ALTER USER      rails50 PASSWORD 'rails50';
+ALTER  USER     rails50 PASSWORD 'rails50';
 CREATE DATABASE rails50;
+CREATE DATABASE danrails50_development;
 ^D
 ^D
 ```
+
+* Then, I cloned this repository:
+
+```bash
+cd ~
+git clone https://github.com/danbikle/danrails50
+```
+
+* Next, I used bundler to enhance the repository:
+
+```bash
+cd ~/danrails50
+bundle install
+```
+
+* Then, I started the Rails webserver on my laptop:
+
+```bash
+cd ~/danrails50
+bin/rails server
+```
+
+* I used the webserver to serve a page to my browser:
+
+![alt text](public/img/ex1.png "ex1.png")
+
+
