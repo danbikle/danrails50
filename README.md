@@ -8,7 +8,7 @@ This repository demonstrates how I mix Rails 5 with Twitter Bootstrap-4.
 
 * http://releases.ubuntu.com/16.04/ubuntu-16.04-desktop-amd64.iso
 
-* After installation, I enhanced Ubuntu with an apt-get shell command:
+* After installation, I enhanced Ubuntu with apt-get shell commands:
 
 ```bash
 sudo apt-get update
