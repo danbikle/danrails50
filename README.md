@@ -134,7 +134,7 @@ git push heroku master
 
 * The above page convinced me that I made good progress towards blending Rails 5 and Twitter Bootstrap-4.
 
-* If you have questions, e-me (Dan Bikle): bikle101@gmail
+* If you have questions, e-me (Dan Bikle): bikle101@gmail.com
 
 
 
