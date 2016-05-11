@@ -21,5 +21,11 @@ libpq-dev emacs wget curl chromium-browser openssh-server aptitude    \
 ruby ruby-dev sqlite3
 ```
 
+* Next, I created an account named rails50 for my Rails 5 efforts:
 
+```bash
+sudo useradd -m -s /bin/bash rails50
+
+
+```
 
