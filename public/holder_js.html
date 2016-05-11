@@ -1,0 +1,63 @@
+<html>
+<pre>
+ref:
+http://stackoverflow.com/questions/15645161/how-to-load-bootstrap-thumbnail-images
+
+
+up vote
+21
+down vote
+	
+How to use it
+
+Include holder.js in your HTML:
+
+&lt;script src="holder.js">&lt;/script>
+
+Holder will then process all images with a specific src attribute, like this one:
+
+&lt;img src="holder.js/200x300">
+
+The above tag will render as a placeholder 200 pixels wide and 300 pixels tall.
+
+To avoid console 404 errors, you can use data-src instead of src.
+
+Holder also includes support for themes, to help placeholders blend in with your layout. There are 6 default themes: sky, vine, lava, gray, industrial, and social. You can use them like this:
+
+&lt;img src="holder.js/200x300/industrial">
+
+shareeditflag
+	
+edited Jun 4 '14 at 14:04
+rybo111
+4,39122340
+	
+answered Jul 17 '13 at 7:21
+wrcode
+21123
+	
+   	
+  	
+	
+So you have to include holder.js separately than what's included in Bootstrap and that's not explained in the documentation? – bafromca Dec 12 '13 at 6:46
+1 	
+  	
+	
+Yes, holder is a separate framework you would be responsible for loading in. github.com/imsky/holder – Dave Collier Jan 9 '14 at 22:05
+	
+add a comment
+up vote
+4
+down vote
+	
+
+Bootstrap uses Holder for thumbnails in its documentation.
+
+It's pretty well explained on the Holder github page.
+
+    Include holder.js in your HTML. Holder will then process all images with a specific src attribute... The tag will render as a placeholder. To avoid console 404 errors, you can use data-src instead of src.
+
+shareeditflag
+
+</pre>
+</html>
