@@ -47,3 +47,14 @@ rbenv install 2.3.1
 rbenv global  2.3.1
 gem install bundler
 ```
+
+* Next I got Postgres ready for Rails:
+
+```bash
+sudo su - postgres
+psql
+CREATE USER rails50 WITH SUPERUSER LOGIN;
+ALTER USER rails50 PASSWORD 'rails50';
+^D
+^D
+```
