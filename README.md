@@ -116,7 +116,21 @@ heroku keys:add
 
 * I used the heroku-client to create an empty app on heroku:
 
+```bash
+cd ~/danrails50
 heroku create danrails501
+```
+
+* I filled the empty app with a git push command:
+
+```bash
+cd ~/danrails50
+git push heroku master
+```
+
+* I used a browser to see the app on heroku:
+
+![alt text](public/img/ex2.png "ex2.png")
 
 
 
